@@ -10,7 +10,7 @@ namespace PublishPipelineTesting
         public override bool Execute()
         {
             Log.LogMessage(MessageImportance.High, "Hello World");            
-            return false;
+            return true;
         }
     }
 }

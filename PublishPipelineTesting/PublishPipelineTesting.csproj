@@ -9,7 +9,7 @@
     <PackageReference Include="Microsoft.Build.Utilities.Core" Version="15.8.166" />
   </ItemGroup>
 
-  <UsingTask TaskName="PublishValidationTask" AssemblyFile="C:\git\CustomBuildTargets\PublishPipelineTesting\bin\debug\netcoreapp2.0\PublishPipelineTesting.dll" />
+  <UsingTask TaskName="PublishValidationTask" AssemblyFile="bin\debug\netcoreapp2.0\PublishPipelineTesting.dll" />
   
   <Target Name="TestTarget" AfterTargets="Build">
     <Message Importance="High" Text="This is a test" />
